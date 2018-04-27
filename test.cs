@@ -36,17 +36,17 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             button1.Text = "Convertir";
-            label2.Text = "nombre chiffre : -";
-            label3.Text = "2ème chiffre : -";
+            label2.Text = "Nombre chiffre : -";
+            label3.Text = "Premier chiffre : -";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             valueBox = textBox1.Text;
             label1.Text = textBox1.Text + "," + textBox2.Text;
-            label2.Text = "nombre chiffre: " + Convert.ToString(textBox1.TextLength);
+            label2.Text = "Nombre chiffre: " + Convert.ToString(textBox1.TextLength);
             
-            label3.Text = "nombre chiffre: " + valueBox.Substring(1,1);
+            label3.Text = "Premier chiffre: " + valueBox.Substring(0,1);
             
         }
 
