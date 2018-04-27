@@ -47,7 +47,8 @@ namespace WindowsFormsApp1
             label2.Text = "Nombre chiffre: " + Convert.ToString(textBox1.TextLength);
             
             label3.Text = "Premier chiffre: " + valueBox.Substring(0,1);
-            
+            label5.Text = "Premier chiffre: " + valueBox.Substring(1, 1);
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
