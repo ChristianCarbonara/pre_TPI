@@ -1,0 +1,8 @@
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\obj\Debug\PRE_TPI.csprojResolveAssemblyReference.cache
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\obj\Debug\PRE_TPI.Properties.Resources.resources
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\obj\Debug\PRE_TPI.csproj.GenerateResource.Cache
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\bin\Debug\PRE_TPI.exe.config
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\bin\Debug\PRE_TPI.exe
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\bin\Debug\PRE_TPI.pdb
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\obj\Debug\PRE_TPI.exe
+C:\Users\carbonarch\Documents\GitHub\pre_TPI\code\PRE_TPI\PRE_TPI\obj\Debug\PRE_TPI.pdb
