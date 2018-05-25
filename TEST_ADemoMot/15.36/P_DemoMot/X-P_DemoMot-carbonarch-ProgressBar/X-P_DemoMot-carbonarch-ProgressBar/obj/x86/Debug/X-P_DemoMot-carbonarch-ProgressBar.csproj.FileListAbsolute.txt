@@ -1,0 +1,11 @@
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\bin\Debug\X-P_DemoMot-carbonarch-ProgressBar.exe
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\bin\Debug\X-P_DemoMot-carbonarch-ProgressBar.pdb
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\MainWindow.baml
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\MainWindow.g.cs
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\App.g.cs
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\X-P_DemoMot-carbonarch-ProgressBar_MarkupCompile.cache
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\X-P_DemoMot-carbonarch-ProgressBar.g.resources
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\X-P_DemoMot-carbonarch-ProgressBar.csproj.GenerateResource.Cache
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\X-P_DemoMot-carbonarch-ProgressBar.exe
+H:\Applications-Projets\P_DemoMot\X-P_DemoMot-carbonarch-ProgressBar\X-P_DemoMot-carbonarch-ProgressBar\obj\x86\Debug\X-P_DemoMot-carbonarch-ProgressBar.pdb

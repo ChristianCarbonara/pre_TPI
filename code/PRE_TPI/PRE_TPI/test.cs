@@ -13,6 +13,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Text.RegularExpressions;
+
 /// <summary>
 /// 
 /// </summary>
@@ -27,7 +29,10 @@ namespace PRE_TPI
         /// 
         /// </summary>
         string valueBox;
-        
+        string valueBox2;
+        int test = 0;
+        Regex rgx = new Regex("^[0-1]+$");
+
         public fnt()
         {
             InitializeComponent();
@@ -42,13 +47,43 @@ namespace PRE_TPI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            valueBox = textBox1.Text;
-            label1.Text = textBox1.Text + "," + textBox2.Text;
-            label2.Text = "Nombre chiffre: " + Convert.ToString(textBox1.TextLength);
             
-            label3.Text = "Premier chiffre: " + valueBox.Substring(0,1);
-            label5.Text = "Deuxième chiffre: " + valueBox.Substring(1, 1);
+            label2.Text = "Nombre chiffre: " + Convert.ToString(textBox1.TextLength);
+            valueBox = textBox1.Text;
+            valueBox2 = textBox2.Text;
+            bool good = false;
+            bool result = int.TryParse(valueBox, out test);
+            if (rgx.IsMatch(valueBox) && rgx.IsMatch(valueBox2))
+            {
+                /*for (int check = 0; check < textBox1.TextLength; check++)
+                {
+                    if (Convert.ToInt64(valueBox.Substring(check, 1)) == 0 || Convert.ToInt64(valueBox.Substring(check, 1)) == 1)
+                    {
+                        good = true;
+                    }
+                    else
+                    {
+                        check += 99;
+                        good = false;
+                    }
+                }
 
+                if (good == true)
+                {*/
+                    if (textBox1.TextLength != 8 || textBox2.TextLength != 8)
+                    {
+                        label1.Text = "Veuillez entrer uniquement 8 chiffre";
+                    }
+                    else
+                    {
+
+                        label1.Text = textBox1.Text + "," + textBox2.Text;
+
+                        label3.Text = "Premier chiffre: " + valueBox.Substring(0, 1);
+                        label5.Text = "Deuxième chiffre: " + valueBox.Substring(1, 1);
+                    }
+                //}
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -60,5 +95,6 @@ namespace PRE_TPI
         {
             textBox2.BackColor = Color.MediumSpringGreen;
         }
+        
     }
 }
